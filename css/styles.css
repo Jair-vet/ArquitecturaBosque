@@ -124,7 +124,18 @@ img{
     }
 }
 
-
+.telefono{
+    display: flex;
+}
+.telefono::before{
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../img/telefono.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 header a {
     color: var(--banco);
     font-size: 2rem;
