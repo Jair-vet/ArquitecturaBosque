@@ -79,11 +79,7 @@ img{
     background-position: center;
     padding: 5rem 0;
 }
-@media (min-width: 768px) {  
-    .header{
-        padding: 2rem 0;
-    }
-}
+
 .contenido-header{
     display: flex;
     flex-direction: column;
@@ -170,4 +166,26 @@ header a {
     border-radius: 1.3rem;
     color: var(--negro);
     font-weight: 600;
+}
+
+.slogan{
+    text-align: center;
+}
+@media (min-width: 768px) {  
+    .slogan{
+        text-align: right;
+    }
+}
+.slogan h1{
+    font-size: 3rem;
+    margin: 0;
+}
+@media (min-width: 768px) {  
+    .slogan h1{
+        font-size: 5rem;
+    }
+}
+.slogan p{
+    margin: 0;
+    line-height: 1;
 }
