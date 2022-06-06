@@ -135,6 +135,7 @@ img{
     background-image: url(../img/telefono.png);
     background-repeat: no-repeat;
     background-position: center center;
+    margin-right: 1rem;
 }
 header a {
     color: var(--banco);
@@ -144,6 +145,8 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
 }
 @media (min-width: 768px) {  
     .navegacion{
@@ -151,11 +154,20 @@ header a {
     }
 }
 .navegacion a{
-    padding: 1rem 2rem;
+    padding: .5rem;
     border-radius: 1.3rem;
     transition:  background-color 300ms;
+    width: 100%;
+    text-align: center;
+}
+@media (min-width: 768px) {  
+    .navegacion a{
+        padding: 1rem 2rem;
+    }
 }
 .navegacion a:hover{
     background-color: rgb( 255 255 255 / .5 );
     border-radius: 1.3rem;
+    color: var(--negro);
+    font-weight: 600;
 }
