@@ -227,6 +227,11 @@ header a {
     background-repeat: no-repeat;
     background-position: bottom center;
 }
+@media (min-width: 768px) {  
+    .modelo{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 .contenido-modelo{
     padding: 5rem;
     background-color: var(--banco);
@@ -234,6 +239,15 @@ header a {
 
 .basico{
     background-image: url(../img/modelo_basico.jpg);
+}
+@media (min-width: 768px) {  
+    .basico{
+        background-position: top right;
+    }
+    .basico .contenido-modelo{
+        grid-rows: 2 / 3;
+        padding: 2rem 2rem 2rem 0;
+    }
 }
 .premier{
     background-image: url(../img/modelo_premier.jpg);
