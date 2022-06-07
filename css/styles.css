@@ -22,6 +22,7 @@ body{
 }
 h1, h2, h3{
     font-weight: 900;
+    line-height: 1.2;
     margin: 1rem 0 4rem 0;
 }
 
@@ -192,6 +193,17 @@ header a {
 
 
 /* ? Sobre Nosotros */
+.nosotros{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url(../img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-right: 1rem;
+}
 
-
+.contenido-nosotros{
+    background-color: var(--banco);
+    padding: 5rem;
+}
 
